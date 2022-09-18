@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_drawer.xml" value="0.176" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main10.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main11.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main12.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main13.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main14.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main15.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main16.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main17.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main18.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main19.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main20.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main21.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main3.xml" value="0.176" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main4.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main5.xml" value="0.264" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main6.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main7.xml" value="0.2" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main8.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/activity_main9.xml" value="0.209375" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/app_bar_drawer.xml" value="0.16458333333333333" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/content_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/fragment_gallery.xml" value="0.16458333333333333" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/fragment_home.xml" value="0.16458333333333333" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/fragment_slideshow.xml" value="0.16458333333333333" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/nav_activity_main.xml" value="0.2" />
+        <entry key="..\:/smd/i190666/app/src/main/res/layout/nav_header_drawer.xml" value="0.2" />
+        <entry key="..\:/smd/i190666/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

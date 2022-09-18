@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="right"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="SignIn"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/musify_logo">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingLeft="30dp"
+            android:text="Musify"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Name"
+
+            android:textAlignment="viewStart"
+            android:textColor="#FFC107"></Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Email"
+
+            android:textAlignment="viewStart"
+            android:textColor="#FFC107"></Button>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="300dp"
+
+            android:backgroundTint="@color/white"
+            android:layout_height="wrap_content"
+            android:textColor="#FFC107"
+            android:textAlignment="viewStart"
+
+            android:layout_marginLeft="10dp"
+            android:text="Password"
+            android:inputType="textVisiblePassword">
+        </Button>
+        <CheckBox
+            android:id="@+id/bt_show"
+            android:layout_width="80dp"
+            android:backgroundTint="@color/white"
+            android:layout_height="wrap_content"
+            android:textColor="#FFC107"
+            android:textAlignment="viewStart"
+            android:layout_marginLeft="10dp"
+            android:text="Show">
+        </CheckBox>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:gravity="left"
+            android:paddingLeft="30dp"
+            android:textColor="#FFC107"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            >
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="10dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+
+            android:src="@drawable/male">
+
+        </ImageView>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/female">
+
+        </ImageView>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/binary">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            >
+        </CheckBox>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I would like to receive your newsletter and other promotional information."
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            >
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="358dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#FFC107"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#F8F6F0"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>
