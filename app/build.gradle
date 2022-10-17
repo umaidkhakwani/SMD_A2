@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.umaidkhakwani.i190666"
+        applicationId "com.ass2.i190666_i192152"
         minSdk 26
         targetSdk 32
         versionCode 1
