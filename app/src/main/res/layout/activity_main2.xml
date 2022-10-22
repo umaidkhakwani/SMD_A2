@@ -70,12 +70,13 @@
             android:layout_marginLeft="10dp"
             android:background="@color/white"
             android:backgroundTint="@color/white"
+            android:hint="Name"
             android:inputType="text"
             android:padding="10dp"
-            android:text="Name"
-
             android:textAlignment="viewStart"
-            android:textColor="#FFC107"></EditText>
+
+            android:textColor="#FFC107"
+            android:textColorHint="#FFC107"></EditText>
     </RelativeLayout>
 
     <RelativeLayout
@@ -89,15 +90,15 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:backgroundTint="@color/white"
-            android:text="Email"
-            android:inputType="textEmailAddress"
             android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:hint="Email"
+            android:textColorHint="#FFC107"
 
             android:textAlignment="viewStart"
-            android:textColor="#FFC107">
-        </EditText>
+            android:textColor="#FFC107"></EditText>
     </RelativeLayout>
 
     <LinearLayout
@@ -118,7 +119,8 @@
 
             android:padding="10dp"
             android:backgroundTint="@color/white"
-            android:text="Password"
+            android:hint="Password"
+            android:textColorHint="#FFC107"
             android:inputType="textVisiblePassword"
             android:background="@color/white"
 
@@ -164,6 +166,7 @@
         >
 
         <ImageView
+            android:id="@+id/male"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:layout_width="10dp"
@@ -174,6 +177,8 @@
 
         </ImageView>
         <ImageView
+
+            android:id="@+id/female"
             android:layout_marginTop="10dp"
             android:layout_width="0dp"
             android:layout_height="100dp"
@@ -182,6 +187,8 @@
 
         </ImageView>
         <ImageView
+
+            android:id="@+id/binary"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
             android:layout_width="0dp"
