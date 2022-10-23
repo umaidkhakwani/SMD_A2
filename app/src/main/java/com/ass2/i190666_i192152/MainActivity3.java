@@ -24,8 +24,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class MainActivity3 extends AppCompatActivity {
 
     CheckBox bt_show;
-    Button signup_btn;
-    Button signin_btn;
+    Button signup_btn, forget_pass, signin_btn ;
     EditText editEmail, editPass;
     FirebaseAuth mAuth;
 
@@ -39,6 +38,7 @@ public class MainActivity3 extends AppCompatActivity {
         signin_btn = findViewById(R.id.signin_btn);
         editEmail = findViewById(R.id.email_signin);
         editPass = findViewById(R.id.pass_signin);
+        forget_pass = findViewById(R.id.forget_pass);
         mAuth = FirebaseAuth.getInstance();
 
         bt_show.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
@@ -57,6 +57,12 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent( MainActivity3.this, MainActivity2.class));
+            }
+        });
+        forget_pass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent( MainActivity3.this, Forget_password.class));
             }
         });
         signin_btn.setOnClickListener(new View.OnClickListener() {
