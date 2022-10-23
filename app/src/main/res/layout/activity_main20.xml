@@ -53,11 +53,10 @@
         >
 
         <ImageView
+            android:id="@+id/dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/profile2"
-            >
-        </ImageView>
+            android:src="@drawable/profile2"></ImageView>
     </RelativeLayout>
 
     <RelativeLayout
@@ -80,16 +79,20 @@
         android:layout_height="1dp"
         android:layout_weight="1">
 
-        <Button
-            android:id="@+id/bt2"
+        <EditText
+            android:id="@+id/email_update"
             android:layout_width="380dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
+            android:background="@color/white"
             android:backgroundTint="@color/white"
-            android:text="Email"
-
+            android:hint="Email"
+            android:inputType="text"
+            android:padding="10dp"
             android:textAlignment="viewStart"
-            android:textColor="#FFC107"></Button>
+
+            android:textColor="#FFC107"
+            android:textColorHint="#FFC107"></EditText>
     </RelativeLayout>
 
     <LinearLayout
@@ -100,19 +103,23 @@
         android:orientation="horizontal"
         >
 
-        <Button
-            android:id="@+id/bt3"
+        <EditText
+            android:id="@+id/pass_update"
             android:layout_width="300dp"
-
-            android:backgroundTint="@color/white"
             android:layout_height="match_parent"
-            android:textColor="#FFC107"
-            android:textAlignment="viewStart"
-
             android:layout_marginLeft="10dp"
-            android:text="Password"
-            android:inputType="textVisiblePassword">
-        </Button>
+            android:layout_marginTop="10dp"
+
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:hint="Password"
+            android:textColorHint="#FFC107"
+            android:inputType="textVisiblePassword"
+            android:background="@color/white"
+
+            android:textAlignment="viewStart"
+            android:textColor="#FFC107">
+        </EditText>
         <CheckBox
             android:id="@+id/bt_show"
             android:layout_width="80dp"

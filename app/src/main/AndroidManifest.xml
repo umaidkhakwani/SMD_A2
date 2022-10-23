@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.ass2.i190666_i192152">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,72 +16,81 @@
         android:theme="@style/Theme.I190666"
         tools:targetApi="31">
         <activity
-            android:name="com.ass2.i190666_i192152.DrawerActivity"
+            android:name=".Update"
+            android:exported="false" />
+        <activity
+            android:name=".Message"
+            android:exported="false" />
+        <activity
+            android:name=".Forget_password"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity"
             android:exported="false"
             android:label="@string/title_activity_drawer"
             android:theme="@style/Theme.I190666.NoActionBar" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity21"
+            android:name=".MainActivity21"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity20"
+            android:name=".MainActivity20"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity19"
+            android:name=".MainActivity19"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity18"
+            android:name=".MainActivity18"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity17"
+            android:name=".MainActivity17"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity16"
+            android:name=".MainActivity16"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity15"
+            android:name=".MainActivity15"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity14"
+            android:name=".MainActivity14"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity13"
+            android:name=".MainActivity13"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity12"
+            android:name=".MainActivity12"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity11"
+            android:name=".MainActivity11"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity10"
+            android:name=".MainActivity10"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity9"
+            android:name=".MainActivity9"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity8"
+            android:name=".MainActivity8"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity7"
+            android:name=".MainActivity7"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity6"
+            android:name=".MainActivity6"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity5"
+            android:name=".MainActivity5"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity4"
+            android:name=".MainActivity4"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity3"
+            android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity2"
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190666_i192152.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
